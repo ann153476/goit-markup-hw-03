@@ -5,35 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <a href="#"><span class="raleway"><span class="color__web">Web</span><span class="color__studio__up">Studio</span></span></a>
+    <header class="flex">
+        <a href="#"><span class="logo"><span class="color__web">Web</span><span class="color__studio__up">Studio</span></span></a>
         <nav>
-            <ul>
+            <ul class="flex">
                 <li><a href="index.html" class="nav__style">Студія</a></li>
                 <li><a href="portfolio.html" class="nav__style active">Портфоліо</a></li>
                 <li><a href="#" class="nav__style">Контакти</a></li>
             </ul>
         </nav>
-        <a href="mailto:info@devstudio.com" class="m__t__style__up mail">info@devstudio.com</a>
-        <a href="tel:+38 096 111 11 11" class="m__t__style__up">+38 096 111 11 11</a> 
+        <ul class="flex contact__up__please"> 
+        <li><a href="mailto:info@devstudio.com" class="m__t__style__up mail">info@devstudio.com</a></li>
+        <li><a href="tel:+38 096 111 11 11" class="m__t__style__up">+38 096 111 11 11</a></li>
+        </ul>
     </header>
     <main>
+    <section class="container__portfolio">
         <section>
-            <ul >
-                <li><button class="buttons__portfolio active__button" type="button">Усі</button></li>
-                <li><button class="buttons__portfolio" type="button">Веб-сайти</button></li>
-                <li><button class="buttons__portfolio" type="button">Додатки</button></li>
-                <li><button class="buttons__portfolio" type="button">Дизайн</button></li>
-                <li><button class="buttons__portfolio" type="button">Маркетинг</button></li>
+            <!--скрито-->
+            <h1 class="hiden">сторінка з портфоліо</h1>
+            <ul class="buttons__portfolio">
+                <li><button class="action__button" type="button">Усі</button></li>
+                <li><button type="button">Веб-сайти</button></li>
+                <li><button type="button">Додатки</button></li>
+                <li><button type="button">Дизайн</button></li>
+                <li><button type="button">Маркетинг</button></li>
             </ul>
         </section>
         <section>
+            <!--скрито-->
+            <h2 class="hiden">приклади портфоліо</h2>
+            <div class="portfolio__net">
             <div>
                 <img src="./img/imgportfolio1.jpg" alt="ноутбук" width="370">
                 <h3>Технокряк</h3>
@@ -79,16 +88,19 @@
                 <h3>Growing Business</h3>
                 <p>Додаток</p>
             </div>
+            </div>
         </section>
+    </section>    
     </main>
-    <footer class="grey__block__down">
-        <a href="#"><span class="raleway"><span class="color__web">Web</span><span class="color__studio__down">Studio</span></span></a>
+    <footer>
+        <div class="grey__blok__down">
+        <a href="#"><span class="logo"><span class="color__web">Web</span><span class="color__studio__down">Studio</span></span></a>
         <address>
             <p class="address__style">м. Київ, пр-т Лесі Українки, 26</p>
             <a href="mailto:info@devstudio.com" class="m__t__style__down">info@devstudio.com</a>
             <a href="tel:+38 096 111 11 11" class="m__t__style__down">+38 096 111 11 11</a> 
         </address>
+        </div>
     </footer>
-    
 </body>
 </html>

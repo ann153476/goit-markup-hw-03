@@ -1,0 +1,240 @@
+body{
+    font-family: 'Roboto';
+    color:#212121;
+    width: 1600px;
+}
+/*обнуление */
+h1, h2, h3, h4, h5, h6, p,ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container{
+    background-color:#fff;
+    width: 1600px;
+    padding: 94px 215px;  
+}
+.container__portfolio{
+    background-color: #fff;
+    width: 1600px;
+    padding: 94px 195px;
+} 
+/*ховаю заголовок для читалок */
+.hiden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px; 
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip:rect(0 0 0 0);
+    clip-path:inset(50%);
+    margin: -1px;
+}
+a{
+    text-decoration:none;
+    color: #212121;  
+}
+ul{
+    list-style: none;
+}
+.big__text{
+    color: #FFFFFF;
+    width: 696px;
+    height: 120px;
+    line-height: 1.36;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2{
+    font-weight: 700;
+    height: 42px;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin-bottom: 50px;
+}
+h3{
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+p{
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.56;
+}
+.color__web{
+    color:#2196F3;
+}
+.color__studio__up{
+   color: #000000;
+}
+.color__studio__down{
+   color: #FFFFFF;
+
+}
+header{
+    align-items: center;
+}
+.logo{
+   height: 31px;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+}
+.nav__style{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.active:visited{
+    color: #2196F3;
+}
+.m__t__style__up{
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;  
+}
+.mail:hover{
+    color: #2196F3;
+}
+.grey__block{
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+    padding: 200px 452px;
+}
+.get__service{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    width: 216px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* футер */
+.grey__blok__down{
+    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+    padding-top: 60px;
+    padding-left: 215px;
+}
+.address__style{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+address{
+   margin-top: 20px;
+   height: 81px;
+}
+.m__t__style__down{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    margin-bottom: 6px;
+}
+/*выравние отступы*/
+.flex{
+    display: flex;
+}
+header{
+    padding: 24px 215px 25px;
+}
+.contact__up__please{
+    margin-left: auto;
+}
+.logo{
+    margin-right: 93px;
+}
+.nav__style:not(last-child){
+    margin-right: 40px;
+}
+.mail{
+    margin-right: 50px;
+}
+.benefits{
+    margin-bottom: 94px;
+    justify-content: space-around;
+
+}
+.benefits li{
+    width: 270px;
+}
+.benefits h3{
+  margin-bottom: 10px;
+}
+.photo__block1{
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 188px;
+}
+.team__style{
+    align-items: center;
+    justify-content: space-between;
+}
+.team__style img{
+    margin-bottom: 30px;
+}
+.team__style div{
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    height: 368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+/*друга сторінка*/
+.buttons__portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.buttons__portfolio button{
+    background-color: #F5F4FA;
+    height: 38px;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 5px;
+    padding: 6px 22px;
+}
+.action__button:visited{
+    background-color: #2196F3;
+}
+.portfolio__net div{
+    border: 1px solid #EEEEEE;
+    height: 404px;
+    flex-basis:calc(100%-6*15px)/3;
+    margin:15px;
+}
+.portfolio__net{
+    display: flex;
+    flex-wrap:wrap ;
+}
+.portfolio__net h3,p{
+    text-align: left;
+    margin-left: 24px;
+}
+.portfolio__net h3{
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
