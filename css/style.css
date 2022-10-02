@@ -1,0 +1,123 @@
+body{
+    font-family: 'Roboto';
+    color:#212121;
+}
+a{
+    text-decoration:none;
+    color: #212121;  
+}
+ul{
+    list-style: none;
+}
+h1{
+    color: #FFFFFF;
+    width: 696px;
+    height: 120px;
+    line-height: 1.36;
+}
+h2{
+    font-weight: 700;
+    height: 42px;
+    font-size: 36px;
+    line-height: 1.16;
+}
+h3{
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+p{
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.56;
+}
+.color__web{
+    color:#2196F3;
+}
+.color__studio__up{
+   color: #000000;
+}
+.color__studio__down{
+   color: #FFFFFF;
+
+}
+.raleway{
+   height: 31px;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+}
+.nav__style{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.active:visited{
+    color: #2196F3;
+}
+.m__t__style__up{
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;  
+}
+.mail:hover{
+    color: #2196F3;
+}
+.grey__block{
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+}
+.get__service{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    width: 216px;
+    height: 50px;
+}
+.oll__block{
+    background-color:#F5F5F5;
+    width: 1600px;
+}
+/* футер */
+.grey__block__down{
+    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+}
+.address__style{
+    width: 231px;
+    height: 21px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.m__t__style__down{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*  друга сторінка  */
+.buttons__portfolio{
+    background-color:#F5F4FA;
+    border: none;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    height: 38px;
+    width: auto;
+}
+.active__button{
+    background: #2196F3;
+}
+.delette{
+    display: inline;
+}
