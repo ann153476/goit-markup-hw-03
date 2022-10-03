@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6, p,ul{
 .container__portfolio{
     background-color: #fff;
     width: 1600px;
+    padding: 94px 215px;
 } 
 /*ховаю заголовок для читалок */
 .hiden{
@@ -223,6 +224,7 @@ header{
 .portfolio__net{
     display: flex;
     flex-wrap:wrap ;
+    margin: -30px;
 }
 .portfolio__net p {
     text-align: left;
