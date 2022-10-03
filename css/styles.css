@@ -91,6 +91,7 @@ header{
    line-height: 1.19;
 }
 .nav__style{
+    display: flex;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -128,6 +129,9 @@ header{
     margin: auto;
     display: block;
 }
+.benefits{
+    display: flex;
+}
 .benefits h3{
     font-weight: 700;
     line-height: 1.14;
@@ -144,7 +148,6 @@ header{
     line-height: 1.18;
     letter-spacing: 0.03em;
 }
-
 /* футер */
 .grey__blok__down{
     background-color: #2F303A;
@@ -197,11 +200,13 @@ header{
     width: 270px;
 }
 .photo__block1{
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 188px;
 }
 .team__style{
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -219,7 +224,6 @@ header{
 /*друга сторінка*/
 
 .buttons__portfolio{
-    
     display: flex;
     justify-content: center;
     align-items: center;
