@@ -8,25 +8,18 @@ body{
     letter-spacing: 0.02em;   
 }
 /*обнуление */
-h1, h2, h3, h4, h5, h6, p,ul{
+h1, h2, h3, h4, h5, h6, p,ul,img,div{
     margin: 0;
     padding: 0;
     border: 0;
 }
+img{
+    display: block;
+}
 .container{
-    width: 1600px;
-    height: 766px;
     padding: 94px 215px;
 }
-.not__realy__white{
-    width: 1600px;
-    height: 648px;
-    padding: 94px 215px;
-}
-.container__portfolio{
-    width: 1600px;
-    padding: 94px 215px;
-} 
+
 /*ховаю заголовок для читалок */
 .hiden{
     position: absolute;
@@ -221,13 +214,16 @@ header{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+.team__style h3{
+    margin-bottom: 10px;
+}
 /*друга сторінка*/
 
 .buttons__portfolio{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 .action__button{
     background-color: #2196F3 !important;
@@ -239,7 +235,7 @@ header{
     height: 38px;
     border: 0;
     border-radius: 4px;
-    margin-right: 5px;
+    margin-right: 8px;
     padding: 6px 22px;
     font-weight: 500;
     font-size: 16px;
@@ -247,35 +243,36 @@ header{
     letter-spacing: 0.03em;
     cursor: pointer;
 }
-.portfolio__net div{
-    border: 1px solid #EEEEEE;
-    height: 404px;
+.portfolio__net>div{
+    width: 370px;
     flex-basis:calc(100%-6*15px)/3;
-    margin:15px;
+    margin: 15px;
 }
 .portfolio__net{
     display: flex;
     flex-wrap:wrap;
-    margin: -30px;
+    margin: -15px;
 }
 .portfolio__net p {
     text-align: left;
-    margin-left: 24px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.03em;  
+    line-height: 1.8;
+    letter-spacing: 0.03em;
 }
 
 .portfolio__net h3{
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     text-align: left;
-    margin-left: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+}
+.border__not__top{
+    padding: 20px 24px;
+    border: 2px solid #EEEEEE;
+    border-top: none;
 }
 .not__realy__white{
     background-color: #F5F4FA;
